@@ -40,7 +40,7 @@ Initial environment setup and baseline hardening using local DevStack deployment
 Structured hardening of a persistent OpenStack deployment, approached as phased security engagements rather than isolated labs.
 
 | Report | Topic | Skills Demonstrated | Status |
-|-----|-------|---------------------|
+|--------|-------|---------------------|--------|
 | 01 | RBAC hardening & identity redesign | Keystone groups/roles, custom job-function roles, Nova/Glance policy enforcement | ✅ Complete |
 | 02 | Service-level policy enforcement | Hardened Nova/Glance/Neutron/Cinder policy.yaml, restricted lifecycle operations | 🚧 In Progress |
 | 03 | Network segmentation & security groups | Tenant networks, routers, ACLs, service-tier isolation, reduced east-west traffic | ⏳ Planned |

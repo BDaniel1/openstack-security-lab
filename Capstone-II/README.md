@@ -7,28 +7,30 @@ Unlike Capstone I (local DevStack labs), this phase uses a long-lived NetLab env
 ---
 
 ## Objectives
-
-- Transition from default roles to structured RBAC
-- Enforce least-privilege authorization at the service layer
-- Harden Nova, Glance, Neutron, and Cinder policies
-- Segment tenant networks and restrict east-west traffic
-- Protect data at rest and in transit
-- Implement logging, monitoring, and audit visibility
-- Establish incident response and forensic readiness
+- Implement structured RBAC using Keystone groups and custom roles
+- Enforce least-privilege authorization through service-level policy.yaml controls
+- Diagnose and remediate Cinder LVM backend failures to restore persistent storage
+- Design and enforce tenant network segmentation using Neutron
+- Eliminate cross-project lateral movement through network isolation and security groups
+- Apply project-level governance controls using OpenStack quotas
+- Protect data at rest using Cinder LUKS volume encryption
+- Establish audit visibility through systemd/journald log analysis
+- Validate security controls through denied-event and failure testing
+- Establish foundations for incident response and forensic investigation
 
 ---
 
 ## Reports
 
-| Report | Focus | Skills Demonstrated | Status |
+| Report | Topic | Skills Demonstrated | Status |
 |--------|-------|---------------------|--------|
-| 01 | RBAC hardening & identity redesign | Keystone groups/roles, custom job-function roles, Nova/Glance policy enforcement, separation of duties validation | ✅ Complete |
-| 02 | Service-level policy enforcement | Hardened Nova/Glance/Neutron/Cinder policy.yaml, restricted lifecycle operations, validated authorized vs denied API calls | 🚧 In Progress |
-| 03 | Network segmentation & security groups | Tenant networks, routers, ACLs, service-tier isolation, reduced east-west attack surface | ⏳ Planned |
-| 04 | Data protection | Encryption at rest, TLS for service communication, protected inter-instance traffic | ⏳ Planned |
-| 05 | Monitoring & logging | Centralized logs, audit trails, operational visibility, anomaly detection | ⏳ Planned |
-| 06 | Forensics & IR readiness | Evidence collection workflows, investigation procedures, response validation | ⏳ Planned |
-| Final | Integrated security demonstration | End-to-end hardened OpenStack environment mapped to real-world cloud security practices | ⏳ Planned |
+| 01 | RBAC hardening & identity redesign | Keystone groups/roles, custom job-function roles, Nova/Glance policy enforcement | ✅ Complete |
+| 02 | Storage remediation & network segmentation | Cinder LVM troubleshooting, volume lifecycle validation, Neutron networks, tenant isolation, security groups | ✅ Complete |
+| 03 | Cloud governance & quota enforcement | Project quotas (compute/storage/network), resource limits, denial validation, multi-tenant governance | ✅ Complete |
+| 04 | Data-at-rest encryption | Cinder volume types, LUKS encryption, encrypted volume provisioning, host-level validation | ✅ Complete |
+| 05 | Monitoring & audit validation | systemd/journald logs, service inspection, audit evidence collection, denied-event analysis | ✅ Complete |
+| 06 | Forensics & IR readiness | Evidence collection workflows, incident investigation procedures | ⏳ Planned |
+| Final | Integrated security demonstration | End-to-end hardened OpenStack environment validated against real-world cloud security practices | ⏳ Planned |
 
 ---
 

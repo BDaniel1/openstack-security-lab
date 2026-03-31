@@ -42,10 +42,10 @@ Structured hardening of a persistent OpenStack deployment, approached as phased 
 | Report | Topic | Skills Demonstrated | Status |
 |--------|-------|---------------------|--------|
 | 01 | RBAC hardening & identity redesign | Keystone groups/roles, custom job-function roles, Nova/Glance policy enforcement | ✅ Complete |
-| 02 | Service-level policy enforcement | Hardened Nova/Glance/Neutron/Cinder policy.yaml, restricted lifecycle operations | 🚧 In Progress |
-| 03 | Network segmentation & security groups | Tenant networks, routers, ACLs, service-tier isolation, reduced east-west traffic | ⏳ Planned |
-| 04 | Data protection | Encryption at rest, TLS for service traffic, protected inter-instance communication | ⏳ Planned |
-| 05 | Monitoring & logging | Centralized logs, audit trails, operational visibility | ⏳ Planned |
+| 02 | Storage remediation & network segmentation | Cinder LVM troubleshooting, volume lifecycle validation, Neutron networks, tenant isolation, security groups | ✅ Complete |
+| 03 | Cloud governance & quota enforcement | Project quotas (compute/storage/network), resource limits, denial validation, multi-tenant governance | ✅ Complete |
+| 04 | Data-at-rest encryption | Cinder volume types, LUKS encryption, encrypted volume provisioning, host-level validation | ✅ Complete |
+| 05 | Monitoring & audit validation | systemd/journald logs, service inspection, audit evidence collection, denied-event analysis | ✅ Complete |
 | 06 | Forensics & IR readiness | Evidence collection workflows, incident investigation procedures | ⏳ Planned |
 | Final | Integrated security demonstration | End-to-end hardened OpenStack environment validated against real-world cloud security practices | ⏳ Planned |
 
@@ -55,7 +55,7 @@ Structured hardening of a persistent OpenStack deployment, approached as phased 
 
 ## Tools & Technologies
 
-OpenStack (Keystone, Nova, Neutron, Glance, Cinder), Linux, DevStack, Bash, RBAC, policy.yaml, security groups, TLS, logging and monitoring tools
+OpenStack (Keystone, Nova, Neutron, Glance, Cinder), DevStack, Linux, Bash, LVM, OpenStack CLI, RBAC, policy.yaml, security groups, Neutron networking, project quotas, LUKS encryption, systemd/journald logging
 
 ---
 

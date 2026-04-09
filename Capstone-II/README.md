@@ -22,15 +22,13 @@ Unlike Capstone I (local DevStack labs), this phase uses a long-lived NetLab env
 
 ## Reports
 
-| Report | Topic | Skills Demonstrated | Status |
-|--------|-------|---------------------|--------|
-| 01 | RBAC hardening & identity redesign | Keystone groups/roles, custom job-function roles, Nova/Glance policy enforcement | ✅ Complete |
-| 02 | Storage remediation & network segmentation | Cinder LVM troubleshooting, volume lifecycle validation, Neutron networks, tenant isolation, security groups | ✅ Complete |
-| 03 | Cloud governance & quota enforcement | Project quotas (compute/storage/network), resource limits, denial validation, multi-tenant governance | ✅ Complete |
-| 04 | Data-at-rest encryption | Cinder volume types, LUKS encryption, encrypted volume provisioning, host-level validation | ✅ Complete |
-| 05 | Monitoring & audit validation | systemd/journald logs, service inspection, audit evidence collection, denied-event analysis | ✅ Complete |
-| 06 | Forensics & IR readiness | Evidence collection workflows, incident investigation procedures | ⏳ Planned |
-| Final | Integrated security demonstration | End-to-end hardened OpenStack environment validated against real-world cloud security practices | ⏳ Planned |
+| Report | Topic | Skills Demonstrated |
+| --- | --- | --- |
+| [01](C2-01-rbac-hardening-keystone-groups-nova-policy.pdf) | RBAC hardening & identity redesign | Keystone groups/roles, custom job-function roles, Nova/Glance policy enforcement |
+| [02](C2-02-cinder-lvm-remediation-neutron-network-segmentation-security-groups.pdf) | Storage remediation & network segmentation | Cinder LVM troubleshooting, volume lifecycle validation, Neutron networks, tenant isolation, security groups |
+| [03](C2-03-openstack-quotas-governance-enforcement-denial-testing.pdf) | Cloud governance & quota enforcement | Project quotas (compute/storage/network), resource limits, denial validation, multi-tenant governance |
+| [04](C2-04-cinder-luks-encryption-volume-types-data-at-rest-validation.pdf) | Data-at-rest encryption | Cinder volume types, LUKS encryption, encrypted volume provisioning, host-level validation |
+| [05](C2-05-openstack-audit-logging-monitoring-denied-events-validation.pdf) | Monitoring & audit validation | systemd/journald logs, service inspection, audit evidence collection, denied-event analysis |
 
 ---
 

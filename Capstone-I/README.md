@@ -19,12 +19,12 @@ This phase focused on building a functional cloud from scratch, then incremental
 
 ## Labs
 
-| Lab | Focus | Skills Demonstrated |
-|-----|-------|---------------------|
-| 01 | DevStack environment setup | Linux administration, OpenStack deployment, Horizon & CLI usage |
-| 02 | Keystone RBAC implementation | Users/projects/roles, least-privilege design, multi-tenant access control |
-| 03 | IAM hardening + MFA | Policy enforcement, scoped accounts, TOTP-based authentication |
-| 04 | Tenant isolation & east-west mitigation | Neutron networks, segmentation, security groups, lateral movement testing |
+| Lab | Topic | Skills Demonstrated |
+| --- | --- | --- |
+| [01](Capstone-I/C1-01-devstack-environment-setup.pdf) | DevStack environment setup | Linux setup, OpenStack deployment, Horizon usage, VM provisioning |
+| [02](Capstone-I/C1-02-keystone-rbac-implementation.pdf) | Keystone RBAC implementation | Users/projects/roles, least privilege, CLI + dashboard administration |
+| [03](Capstone-I/C1-03-keystone-iam-hardening-policy-mfa.pdf) | IAM hardening + MFA | Scoped accounts, Nova policy enforcement, Keystone TOTP MFA |
+| [04](Capstone-I/C1-04-tenant-network-segmentation-east-west-mitigation.pdf) | Tenant isolation & east-west mitigation | Neutron networks, segmentation, security groups, lateral movement testing |
 
 ---
 

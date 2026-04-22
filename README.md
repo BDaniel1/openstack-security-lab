@@ -49,8 +49,8 @@ Structured hardening of a persistent OpenStack deployment, approached as phased 
 | [04](Capstone-II/C2-04-cinder-luks-encryption-volume-types-data-at-rest-validation.pdf) | Data-at-rest encryption | Cinder volume types, LUKS encryption, encrypted volume provisioning, host-level validation |
 | [05](Capstone-II/C2-05-openstack-audit-logging-monitoring-denied-events-validation.pdf) | Monitoring & audit validation | systemd/journald logs, service inspection, audit evidence collection, denied-event analysis |
 
-→ See: `/Capstone-II`
-→ Scripts (automation & validation): [Capstone-II/scripts](/Capstone-II/scripts)
+→ See: [Capstone-II](/Capstone-II)
+→ See: [Scripts (automation & validation)](/Capstone-II/scripts)
 
 ---
 

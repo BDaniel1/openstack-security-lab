@@ -50,6 +50,7 @@ Structured hardening of a persistent OpenStack deployment, approached as phased 
 | [05](Capstone-II/C2-05-openstack-audit-logging-monitoring-denied-events-validation.pdf) | Monitoring & audit validation | systemd/journald logs, service inspection, audit evidence collection, denied-event analysis |
 
 → See: [Capstone-II](/Capstone-II)
+
 → See: [Scripts (automation & validation)](/Capstone-II/scripts)
 
 ---

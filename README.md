@@ -33,7 +33,7 @@ Initial environment setup and baseline hardening using local DevStack deployment
 | [03](Capstone-I/C1-03-keystone-iam-hardening-policy-mfa.pdf) | IAM hardening + MFA | Scoped accounts, Nova policy enforcement, Keystone TOTP MFA |
 | [04](Capstone-I/C1-04-tenant-network-segmentation-east-west-mitigation.pdf) | Tenant isolation & east-west mitigation | Neutron networks, segmentation, security groups, lateral movement testing |
 
-→ See: `/Capstone-I`
+→ See: [Capstone-I](/Capstone-I)
 
 ---
 
@@ -50,6 +50,7 @@ Structured hardening of a persistent OpenStack deployment, approached as phased 
 | [05](Capstone-II/C2-05-openstack-audit-logging-monitoring-denied-events-validation.pdf) | Monitoring & audit validation | systemd/journald logs, service inspection, audit evidence collection, denied-event analysis |
 
 → See: `/Capstone-II`
+→ Scripts (automation & validation): [Capstone-II/scripts](/Capstone-II/scripts)
 
 ---
 
